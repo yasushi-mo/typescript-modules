@@ -2,9 +2,11 @@
   "name": "typescript-modules-commonjs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "npm run build && npm start"
   },
   "keywords": [],
   "author": "",
